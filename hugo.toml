@@ -1,0 +1,45 @@
+baseURL = 'https://curia.me/'
+languageCode = 'en-us'
+title = 'Curia'
+theme = 'PaperMod'
+
+[params]
+  description = "Personal blog by Damiano Curia"
+  author = "Damiano Curia"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "Welcome to Curia.me"
+  Content = "Personal blog about technology, development, and more."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/curia-damiano"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
