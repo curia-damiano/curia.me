@@ -6,7 +6,7 @@ date: "2018-05-04T18:44:00Z"
 categories:
   - "Software Development"
 tags:
-  - "azure"
+  - "Azure"
 author: "Curia Damiano"
 image: "img/zoo105.jpg"
 ---
