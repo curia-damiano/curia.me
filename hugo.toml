@@ -14,6 +14,9 @@ theme = 'stack'
 			local = false
 			src = '/img/avatar.jpeg'
 
+		[params.footer]
+			since = 2017
+
 	[params.widgets]
 
 		[[params.widgets.homepage]]
@@ -124,3 +127,11 @@ theme = 'stack'
 		[menu.social.params]
 			icon = 'brand-x'
 			newTab = true
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.extensions]
+			strikethrough = true
+			[markup.goldmark.extensions.extras]
+				[markup.goldmark.extensions.extras.insert]
+					enable = true
