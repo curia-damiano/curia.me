@@ -35,7 +35,7 @@ In this post, I will go through its setup, as it is different from the previous 
    This should be your starting point; in the next steps, we will remove the rules we don't need.  
 
 5. Associate each project to the rule file.  
-   To do this, open each project file (right click, Edit <project>.csproj) and add the following tag to a PropertyGroup (what you insert, is the rule set file name, including its path relative to the position of the csproj file itself):  
+   To do this, open each project file (right click, Edit &lt;project&gt;.csproj) and add the following tag to a PropertyGroup (what you insert, is the rule set file name, including its path relative to the position of the csproj file itself):  
 
 ```markup
 <PropertyGroup>
